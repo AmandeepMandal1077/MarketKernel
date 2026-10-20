@@ -1,0 +1,83 @@
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+.cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Packaging / build artefacts ---
+build/
+dist/
+downloads/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+MANIFEST
+*.manifest
+*.spec
+
+# --- Test & coverage output ---
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+test-results/
+*.cover
+*.py,cover
+
+# --- Runtime database (auto-created by MarketKernel) ---
+/marketkernel.db
+/marketkernel.db-wal
+/marketkernel.db-shm
+/marketkernel.db-journal
+
+# --- Local configuration / secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Logs & temporary files ---
+*.log
+*.tmp
+*.temp
+*.bak
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# --- OS metadata ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
